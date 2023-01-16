@@ -1,0 +1,402 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.hide{
+    display: none;
+}
+/* --------styles for body --------- */
+body{
+    /* ------------font------------ */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+/* --------styles for nav bar ------ */
+nav{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 150px;
+    padding: 20px;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+nav > h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+nav > a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+/* ------------styles for section one --------- */
+
+main{
+
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-hadding-title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    /* margin: 0 auto; */
+    padding:60px 320px ;
+}
+.banner-heading h2{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313
+    
+}
+.banner-heading p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+}
+.banner-title{}
+/* .button{
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 20px;
+    background-color: #FF900E;
+    border-radius: 15px;
+    padding: 8px;
+    
+} */
+.banner-image{
+   padding: 30px;
+}
+/* ---------styles for section two ------- */
+.section-two{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 100px; */
+
+}
+.section-two-left{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 15px;
+    width: 70%;
+
+}
+.section-two-right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.feature-heading{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+.hrading{}
+.text{}
+
+.button{
+    color: white;
+    background-color: #FF900E;
+    padding: 20px 50px;
+
+}
+
+/* ----------------- styles for features section ------------ */
+.section-features{
+    padding: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.section-feature-left{
+    display: flex;
+    flex-direction: column;
+}
+.section-feature-left .features-heading h2{
+    border-left: 2px solid 
+    #FF900E;
+    padding: 20px 5px;  
+}
+.section-feature-left .features-text p{
+    padding: 25px 50px 30px 0px;
+}
+.features{
+    padding-left: 15px;
+}
+.features h4{
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;  
+    padding-bottom: 15px;   
+}
+.features p{
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.features div{
+    padding: 30px ;
+}
+.section-feature-right {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color:#FF900E ;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 10px;
+}
+.experience h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+}
+.experience p{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+}
+/* ------------------syles for footer ----------- */
+
+.footer-container-one{
+    padding-top: 60px;
+    padding-bottom: 240px;
+}
+.footer{
+
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+}
+.footer-container-one{
+
+}
+.facts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.heading-of-facts-container{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts-container{
+    gap: 24px;
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+.heading-of-facts-container{
+
+}
+.title-of-facts-container{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+}
+.facts-container.title-of-facts-container{
+
+}
+.div-of-facts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 120px;
+
+}
+.fact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid#FF900E;
+    padding: 25px 20px 20px 25px;
+    transition: background 1s, color 1s,padding 2s, box-shadow 2s ;
+}
+.fact:hover{
+    background: linear-gradient(to right, red, blue);
+    color: rgb(245, 239, 239);
+    padding: 10px;
+    box-shadow: 5px 10px 5px red;
+    border: none;
+}
+.fact img{
+
+}
+/*--------------- styles for footer section two ---------- */
+.footer-section-two
+.sponspors{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.sponspors .title-of-sponspors{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponspors .text-of-sponspors{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* -----------------styles for footer section three----------- */
+.footer-section-three{
+
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.footer-section-three img{
+    opacity: .3;
+}
+/* ------------------styles for footer section four ------------ */
+.footer-section-four {
+
+    padding-bottom: 220px;
+}
+.footer-section-four p{
+    color: #424242;
+    padding: 38px 410px 38px 410px;
+    background: #FFF4E7;
+    text-align: center;
+}
+
+/*------------- media query ----------- */
+ 
+@media only screen and (max-width:1250px) {
+   .body{ width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+   }
+ 
+}
+
+
+
+@media only screen and (max-width:576px){
+    nav{
+        height: 60px;
+        text-align: center;
+    }
+    nav > h2{
+        position: relative;
+        margin: 10px auto;
+        text-align: center;
+    }
+    
+    nav > ul {
+        position: static;
+        flex-direction: column;
+       right: 10px;
+        top:60px ;
+    }
+    .banner-hadding-title{
+        padding: 30px 100px;
+    }
+    .banner-heading h2{
+        font-weight: 400;
+        font-size: 35px;
+
+        
+    }
+    .banner-heading p{
+        font-weight: 200;
+        font-size: 16px;
+
+    }
+    .banner-image{
+        transform: scale(.6);
+    }
+    /*----------- meadia for section two -------- */
+    .section-two{
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.section-two-left{
+    grid-template-columns: repeat(1 ,1fr);
+    gap: 5px;
+    width: 100%;
+    padding: 5px;
+    justify-items: center;
+}
+.feature-heading{
+    align-items: center;
+    width: 100%;
+}
+
+/* --------------media for section feature --------- */
+.section-features{
+    
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color:#FF900E ;
+    position: static;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+}
