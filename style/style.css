@@ -19,7 +19,7 @@ body{
 }
 /* --------styles for nav bar ------ */
 nav{
-    background-color: chocolate;
+    background-color: rgba(255, 144, 14, 0.1);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,6 +35,7 @@ nav > ul{
     flex-direction: row;
     gap: 20px;
     list-style: none;
+    text-decoration: none;
 }
 nav > h2{
     font-weight: 700;
@@ -45,6 +46,7 @@ nav > a{
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+    
 }
 /* ------------styles for section one --------- */
 
@@ -55,6 +57,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgba(255, 144, 14, 0.1);
 }
 .banner-hadding-title{
     display: flex;
@@ -77,15 +80,7 @@ main{
     text-align: center;
 }
 .banner-title{}
-/* .button{
-    color: #FFFFFF;
-    font-weight: 200;
-    font-size: 20px;
-    background-color: #FF900E;
-    border-radius: 15px;
-    padding: 8px;
-    
-} */
+
 .banner-image{
    padding: 30px;
 }
@@ -127,7 +122,7 @@ main{
     color: white;
     background-color: #FF900E;
     padding: 20px 50px;
-
+    border-radius: 10px;
 }
 
 /* ----------------- styles for features section ------------ */
